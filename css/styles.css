@@ -1,0 +1,75 @@
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+     body {
+         margin: 10px; /* Reduced margins for smaller screens */
+     }
+     article {
+        padding: 15px;
+     }
+    h1 {
+        font-size: 1.7em; /* Smaller font size for the main title */
+    }
+     h2 {
+         font-size: 1.3em; /* Smaller font size for the subtitles */
+     }
+    p, li {
+        font-size: 1em; /* Smaller font size for the content */
+    }
+}
+
+ @media (max-width: 500px) {
+      body {
+          margin: 5px; /* Further reduced margins */
+      }
+      article {
+        padding: 10px;
+     }
+       h1 {
+        font-size: 1.5em; /* Even smaller main title */
+    }
+       h2 {
+           font-size: 1.2em; /* Even smaller subtitles */
+       }
+    p, li {
+        font-size: .95em; /* Slightly smaller content */
+    }
+ }
